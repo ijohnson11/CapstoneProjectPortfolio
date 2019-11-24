@@ -13,9 +13,13 @@ The current version of the interface was written using Qt and C++, which was the
     * An issue with the frontend or backend will result in failure of the interface.
   * The interface looks outdated.
     * While serving it's purpose, the interface does not do a great job of presenting information in a more modern format.
-  * Exception-handling within the application is sub-par
+  * Exception-handling within the application is sub-par.
     * When an exception is thrown, a splash dialog will appear, but will give a stack trace of where the error occured. This is not a user-friendly way to display an error to the scanner operator.
     * A user will be barred from using the rest of the interface, even if an exception does not affect other parts of the scanner.
   * Messaging between the different parts of the scanner was messy, and difficult to add to or modify.
-    * Using a propietary messaging format, different nodes within the scanner had to send information to other nodes, but the method in which they were sent made it difficult to replicate in the case of future advancements.
+    * Using a propietary messaging format, different nodes within the scanner had to send information to other nodes, but the method in which they were sent made it difficult to replicate in the case of future advancements.  
+    
+Below is the current version of the user interface:  
+
+[Old interface exam managment](www.github.com)
 
