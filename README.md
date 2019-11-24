@@ -6,7 +6,7 @@ For this project, I was tasked by my employer to develop a new web-based user in
 
 Though there were many challenges in developing this new version of a user interface, the final result shows a significant improvement in both asthetic and performance when compared to the previous interface.  
 
-### The Need for a New Interface  
+### Current Version  
 The current version of the interface was written using Qt and C++, which was the easiest way for the company to develop a functioning application for their embedded system, however, there were several issues with this version:  
 
   * The backend and frontend of the application were tightly coupled.
@@ -19,7 +19,12 @@ The current version of the interface was written using Qt and C++, which was the
   * Messaging between the different parts of the scanner was messy, and difficult to add to or modify.
     * Using a propietary messaging format, different nodes within the scanner had to send information to other nodes, but the method in which they were sent made it difficult to replicate in the case of future advancements.  
     
-Below is the current version of the user interface:  
+#### Current UI Screenshots:
 
-[Old interface exam managment](www.github.com)
+Exam Management            |  Tank Statuses
+:-------------------------:|:-------------------------:
+![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/exam_management.png)  |  ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/tank_statuses.png)  
 
+Current Scan Information          |  New Exam Creation
+:-------------------------:|:-------------------------:
+![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/current_exam.png)  |  ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/new_exam.png)
