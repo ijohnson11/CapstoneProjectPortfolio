@@ -4,9 +4,23 @@
 
 For this project, I was tasked by my employer to develop a new web-based user interface to operate a scanner that utilizes quantitative transmisson ultra sound to aid in the detection of breast cancer.  
 
-Though there were many challenges in developing this new version of a user interface, the final result shows a significant improvement in both asthetic and performance when compared to the previous interface.  
+Though there were many challenges in developing this new version of a user interface, the final result shows a significant improvement in both asthetics and performance when compared to the previous interface.  
+
+
+### Contents  
+------
+  ##### [Description](#description)  
+  ##### [Current Version](#current-version)
+  ##### [New Version](#new-version)
+  ##### [React in Action](#react-in-action)
+  ##### [Design Process](#design-process)
+  ##### [Final Screencast](#final-screencast)  
+------  
+
 
 ### Current Version  
+------  
+
 The current version of the interface was written using Qt and C++, which was the easiest way for the company to develop a functioning application for their embedded system, however, there were several issues with this version:  
 
   * The backend and frontend of the application were tightly coupled.
@@ -23,13 +37,14 @@ The current version of the interface was written using Qt and C++, which was the
 
 Exam Management            |  Tank Statuses
 :-------------------------:|:-------------------------:
-![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/exam_management.png)  |  ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/tank_statuses.png)  
+![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/Current%20UI/exam_management.png)  |  ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/Current%20UI/tank_statuses.png)  
 
 Current Scan Information          |  New Exam Creation
 :-------------------------:|:-------------------------:
-![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/current_exam.png)  |  ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/new_exam.png)
+![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/Current%20UI/current_exam.png)  |  ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/Current%20UI/new_exam.png)
 
 ### New Version
+------
 The new version of the interface is written in React for the front-end, which gives the following benefits:
  * Reuse of Components to allow for efficiency in design
    * Common principle of software development is DRY (Don't repeat yourself)
@@ -50,13 +65,14 @@ The new version's backend utilizes the javascript MqttBroker.js library for send
  
  Exam Management            |  Tank Statuses
 :-------------------------:|:-------------------------:
-![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/new_ui_exam_management.PNG)  |  ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/new_ui_tank_statuses.PNG)  
+![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/New%20UI/new_ui_exam_management.PNG)  |  ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/New%20UI/new_ui_tank_statuses.PNG)  
 
 Current Scan Information          |  New Exam Creation
 :-------------------------:|:-------------------------:
-![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/new_ui_current_scan.PNG)  |  ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/new_ui_new_exam.PNG)  
+![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/New%20UI/new_ui_current_scan.PNG)  |  ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/New%20UI/new_ui_new_exam.PNG)  
 
 ### React in Action
+------
 The ease of creating common components is greatly increased thanks to react. For example, when rendering the buttons on the Exam Management container, the following code snippet generates all of them accordingly:  
 
 ```
@@ -73,16 +89,17 @@ The ease of creating common components is greatly increased thanks to react. For
 ```
 
 ### Design Process
+------
 Throughout the creation of the new version, many steps were taken to ensure transparency between the team as well as a reference for the overall architecture. Some of the design processes used include:  
  * **Functional Requirements Documentation:**  
  
-     ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/New%20UI/function_req.PNG)  
+     ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/Documentation/function_req.PNG)  
  * **Flow Chart Diagrams:**  
  
-     ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/New%20UI/examTableFlowchart.png)  
+     ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/Documentation/examTableFlowchart.png)  
  * **Block Diagrams:**  
  
-     <img src="https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/BlockDiagram.png" style="height: 450px" />  
+     <img src="https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/Documentation/BlockDiagram.png" style="height: 450px" />  
  * **Utilized agile SCRUM methodology to clearly communicate with development team including:**  
    * Daily Standups
    * Sprint planning
@@ -90,9 +107,9 @@ Throughout the creation of the new version, many steps were taken to ensure tran
    * Product Backlogs  
    
 ### Final Screencast  
+------
 
 Below you can see the screencast of the final version of the user interface:  
 
 <video src="https://www.loom.com/embed/717b8a2c71704afda4842e5c8cc24a12" width="320" height="200" controls preload></video>
 
- 
