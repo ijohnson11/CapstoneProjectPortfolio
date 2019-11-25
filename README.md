@@ -113,4 +113,3 @@ Below you can see the screencast of the final version of the user interface:
 
 <video src="https://www.loom.com/embed/717b8a2c71704afda4842e5c8cc24a12" width="320" height="200" controls preload></video>
 
- 
