@@ -86,7 +86,7 @@ Throughout the creation of the new version, many steps were taken to ensure tran
      ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/Documentation/examTableFlowchart.png)  
  * **Block Diagrams:**  
  
-     <img src="https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/DocumentationBlockDiagram.png" style="height: 450px" />  
+     <img src="https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/Documentation/BlockDiagram.png" style="height: 450px" />  
  * **Utilized agile SCRUM methodology to clearly communicate with development team including:**  
    * Daily Standups
    * Sprint planning
