@@ -19,7 +19,7 @@ The current version of the interface was written using Qt and C++, which was the
   * Messaging between the different parts of the scanner was messy, and difficult to add to or modify.
     * Using a propietary messaging format, different nodes within the scanner had to send information to other nodes, but the method in which they were sent made it difficult to replicate in the case of future advancements.  
     
-#### Current UI Screenshots:
+##### Current UI Screenshots:
 
 Exam Management            |  Tank Statuses
 :-------------------------:|:-------------------------:
@@ -28,3 +28,71 @@ Exam Management            |  Tank Statuses
 Current Scan Information          |  New Exam Creation
 :-------------------------:|:-------------------------:
 ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/current_exam.png)  |  ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/new_exam.png)
+
+### New Version
+The new version of the interface is written in React for the front-end, which gives the following benefits:
+ * Reuse of Components to allow for efficiency in design
+   * Common principle of software development is DRY (Don't repeat yourself)
+ * Use of react libraries allows easy imports of tools that are needed in the application
+   * No need to reinvent the wheel
+ * Re-rendering of individual components only occurs when its state changes
+   * Optimizes effiency of the webpage, updates nearly instantaneously
+ * Use of react-redux allows for multiple components to update based on changes to the application's state
+   * No need to pass props all the way down from a parent component to a great-great-great grandchild component  
+   
+The new version's backend utilizes the javascript MqttBroker.js library for sending messages to and from the interface. Advantages:
+ * The interface can subscribe to topics of the broker and change whenever information is updated
+ * The broker can subscribe to topics and react accordingly whenever a message is received from the interface
+ * The facilitation of data between the different nodes in the embedded system can now be sent in JSON format, which increases readability for developers, as well as modification of messages
+ * The interface can act accordingly to errors based on where the error occured, allowing the user to access parts of the interface that were not affected
+ 
+ ##### New UI screenshots  
+ 
+ Exam Management            |  Tank Statuses
+:-------------------------:|:-------------------------:
+![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/new_ui_exam_management.PNG)  |  ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/new_ui_tank_statuses.PNG)  
+
+Current Scan Information          |  New Exam Creation
+:-------------------------:|:-------------------------:
+![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/new_ui_current_scan.PNG)  |  ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/new_ui_new_exam.PNG)  
+
+### React in Action
+The ease of creating common components is greatly increased thanks to react. For example, when rendering the buttons on the Exam Management container, the following code snippet generates all of them accordingly:  
+
+```
+ <div>
+  <ExamManagementButton id="exam-manager-process" icon={faRedo} text="Process"/>
+  <ExamManagementButton id="exam-manager-reprocess" icon={faRedo} rotation={180} text="Reprocess"/>
+  <ExamManagementButton id="exam-manager-cancel" icon={faBan} text="Cancel" 
+   disabled={selectedExams.length > 1 ? true : false}/>
+  <ExamManagementButton id="exam-manager-edit" icon={faPencilAlt} text="Edit" 
+   disabled={selectedExams.length > 1 ? true : false}/>
+  <ExamManagementButton id="exam-manager-copy" icon={faCopy} text="Copy"/>
+  <ExamManagementButton id="exam-manager-delete" icon={faTrash} text="Delete"/>
+ </div>
+```
+
+### Design Process
+Throughout the creation of the new version, many steps were taken to ensure transparency between the team as well as a reference for the overall architecture. Some of the design processes used include:  
+ * **Functional Requirements Documentation:**  
+ 
+     ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/New%20UI/function_req.PNG)  
+ * **Flow Chart Diagrams:**  
+ 
+     ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/New%20UI/examTableFlowchart.png)  
+ * **Block Diagrams:**  
+ 
+     <img src="https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/BlockDiagram.png" style="height: 450px" />  
+ * **Utilized agile SCRUM methodology to clearly communicate with development team including:**  
+   * Daily Standups
+   * Sprint planning
+   * Retrospectives
+   * Product Backlogs  
+   
+### Final Screencast  
+
+Below you can see the screencast of the final version of the user interface:  
+
+<video src="https://www.loom.com/embed/717b8a2c71704afda4842e5c8cc24a12" width="320" height="200" controls preload></video>
+
+ 
