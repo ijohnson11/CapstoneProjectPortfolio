@@ -1,14 +1,21 @@
 ## Capstone Project Portfolio
 
+### Contents
+----
+##### [Description](#description)  
+##### [Current Version](#current-version)
+##### [New Version](#new-version)
+##### [React in Action](#react-in-action)
+##### [Design Process](#design-process)
+##### [Final Screencast](#final-screencast)
+
 **Description**: This is the project portfolio for my Senior Project, spanning two semesters.  
 
 For this project, I was tasked by my employer to develop a new web-based user interface to operate a scanner that utilizes quantitative transmisson ultra sound to aid in the detection of breast cancer.  
 
 Though there were many challenges in developing this new version of a user interface, the final result shows a significant improvement in both asthetic and performance when compared to the previous interface.  
 
-
 ### Current Version  
---------
 The current version of the interface was written using Qt and C++, which was the easiest way for the company to develop a functioning application for their embedded system, however, there were several issues with this version:  
 
   * The backend and frontend of the application were tightly coupled.
@@ -32,7 +39,6 @@ Current Scan Information          |  New Exam Creation
 ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/Current%20UI/current_exam.png)  |  ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/Current%20UI/new_exam.png)
 
 ### New Version
---------
 The new version of the interface is written in React for the front-end, which gives the following benefits:
  * Reuse of Components to allow for efficiency in design
    * Common principle of software development is DRY (Don't repeat yourself)
@@ -59,7 +65,6 @@ Current Scan Information          |  New Exam Creation
 :-------------------------:|:-------------------------:
 ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/New%20UI/new_ui_current_scan.PNG)  |  ![](https://github.com/ijohnson11/CapstoneProjectPortfolio/blob/master/images/New%20UI/new_ui_new_exam.PNG)  
 
---------
 ### React in Action
 The ease of creating common components is greatly increased thanks to react. For example, when rendering the buttons on the Exam Management container, the following code snippet generates all of them accordingly:  
 
@@ -75,8 +80,8 @@ The ease of creating common components is greatly increased thanks to react. For
   <ExamManagementButton id="exam-manager-delete" icon={faTrash} text="Delete"/>
  </div>
 ```
+
 ### Design Process
---------
 Throughout the creation of the new version, many steps were taken to ensure transparency between the team as well as a reference for the overall architecture. Some of the design processes used include:  
  * **Functional Requirements Documentation:**  
  
@@ -94,10 +99,9 @@ Throughout the creation of the new version, many steps were taken to ensure tran
    * Product Backlogs  
    
 ### Final Screencast  
---------
 
 Below you can see the screencast of the final version of the user interface:  
 
-<a> <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/717b8a2c71704afda4842e5c8cc24a12-with-play.gif"> </a>
+<video src="https://www.loom.com/embed/717b8a2c71704afda4842e5c8cc24a12" width="320" height="200" controls preload></video>
 
  
