@@ -4,7 +4,8 @@
 
 For this project, I was tasked by my employer to develop a new web-based user interface to operate a scanner that utilizes quantitative transmisson ultra sound to aid in the detection of breast cancer.  
 
-Though there were many challenges in developing this new version of a user interface, the final result shows a significant improvement in both asthetic and performance when compared to the previous interface.  
+Though there were many challenges in developing this new version of a user interface, the final result shows a significant improvement in both asthetics and performance when compared to the previous interface.  
+
 
 ### Contents  
 ------
@@ -15,6 +16,7 @@ Though there were many challenges in developing this new version of a user inter
   ##### [Design Process](#design-process)
   ##### [Final Screencast](#final-screencast)  
 ------  
+
 
 ### Current Version  
 ------  
