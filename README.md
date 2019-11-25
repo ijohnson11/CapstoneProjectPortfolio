@@ -1,14 +1,13 @@
 ## Capstone Project Portfolio
 
-### Contents
+### Contents  
+  ##### [Description](#description)  
+  ##### [Current Version](#current-version)
+  ##### [New Version](#new-version)
+  ##### [React in Action](#react-in-action)
+  ##### [Design Process](#design-process)
+  ##### [Final Screencast](#final-screencast)
 ------
-
-##### [Description](#description)  
-##### [Current Version](#current-version)
-##### [New Version](#new-version)
-##### [React in Action](#react-in-action)
-##### [Design Process](#design-process)
-##### [Final Screencast](#final-screencast)
 
 **Description**: This is the project portfolio for my Senior Project, spanning two semesters.  
 
