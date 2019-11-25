@@ -109,7 +109,7 @@ Throughout the creation of the new version, many steps were taken to ensure tran
 ### Final Screencast  
 ------
 
-Below you can see the screencast of the final version of the user interface:  
+Below is a link to the screencast of the final version of the user interface as well as a gif if you'd rather that:  
 
-<video src="https://www.loom.com/embed/717b8a2c71704afda4842e5c8cc24a12" width="320" height="200" controls preload></video>
+<a href="https://www.loom.com/share/4e34a0d14c054614930e9edac91e67e3"> <p>Capstone Final - Watch Video</p> <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/4e34a0d14c054614930e9edac91e67e3-with-play.gif"> </a>
 
