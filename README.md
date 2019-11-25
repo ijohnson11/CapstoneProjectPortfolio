@@ -9,12 +9,11 @@ Though there were many challenges in developing this new version of a user inter
 
 ### Contents  
 ------
-  [Current Version](#-current-version)
-  [New Version](#-new-version)
-  [React in Action](#-react-in-action)
-  [Design Process](#-design-process)
-  [Final Screencast](#-final-screencast)  
-------  
+  [Current Version](#current-version)  
+  [New Version](#new-version)  
+  [React in Action](#react-in-action)  
+  [Design Process](#design-process)  
+  [Final Screencast](#final-screencast) 
 
 
 ### Current Version  
