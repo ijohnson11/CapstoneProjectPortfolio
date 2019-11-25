@@ -16,7 +16,8 @@ Though there were many challenges in developing this new version of a user inter
   ##### [Final Screencast](#final-screencast)
 
 ### Current Version  
-------
+------  
+
 The current version of the interface was written using Qt and C++, which was the easiest way for the company to develop a functioning application for their embedded system, however, there were several issues with this version:  
 
   * The backend and frontend of the application were tightly coupled.
