@@ -14,7 +14,7 @@ Though there were many challenges in developing this new version of a user inter
   ##### [React in Action](#react-in-action)
   ##### [Design Process](#design-process)
   ##### [Final Screencast](#final-screencast)  
-  
+------  
 
 ### Current Version  
 ------  
